@@ -1,0 +1,26 @@
+{
+    "name": "stoneandstorm/module-customerpaymentmethod",
+    "description": "With this module you can set-up payment methods for each customer",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "erwinromkes@gmail.com",
+            "name": "Erwin Romkes"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "StoneandStorm\\CustomerPaymentMethod\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
