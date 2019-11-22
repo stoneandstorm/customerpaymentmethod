@@ -12,9 +12,16 @@
 				<label>general</label>
 				<field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
 					<label>enabled</label>
-					<comment/>
 					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
 				</field>
+                <field id="payment_method" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="multiselect">
+                    <label>disable payment method</label>
+                    <source_model>StoneandStorm\CustomerPaymentMethod\Model\Config\Source\Paymentmethods</source_model>
+                    <comment>sas_cpm_comment</comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
 			</group>
 		</section>
 	</system>
