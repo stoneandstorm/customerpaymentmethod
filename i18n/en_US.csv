@@ -1,1 +1,6 @@
-"string","stringtranslated"
+"sas_extensions","Stone and Storm"
+"sas_customerpaymentmethod","Customer Payment Method"
+"general","General"
+"enabled","Enabled"
+"disable payment method", "Disable payment method"
+"sas_cpm_comment","Select the payment methods to deactivate them."
